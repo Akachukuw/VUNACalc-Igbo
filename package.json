@@ -1,0 +1,41 @@
+{
+  "name": "VUNACalc-Igbo",
+  "version": "1.0.0",
+  "description": "A smart calculator with Igbo language support and advanced mathematical functions",
+  "main": "assets/js/script.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "assets/js/**/*.js",
+      "!**/node_modules/**"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.js",
+      "**/?(*.)+(spec|test).js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akachukuw/VUNACalc-Igbo.git"
+  },
+  "keywords": [
+    "calculator",
+    "igbo",
+    "math",
+    "webapp"
+  ],
+  "author": "Akachukuw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akachukuw/VUNACalc-Igbo/issues"
+  },
+  "homepage": "https://github.com/Akachukuw/VUNACalc-Igbo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
